@@ -40,6 +40,11 @@ public class TraceurException extends RuntimeException {
         while (t.getCause() != null) {
             t = t.getCause();
 
+            // Won't be able to init the cause of this with self
+            if (t == this) {
+                return throwable;
+            }
+
             if (logLevel == LogLevel.SHOW_ONLY_FIRST && t instanceof TraceurException) {
                 return throwable;
             }
