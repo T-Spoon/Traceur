@@ -23,7 +23,7 @@ ext {
     siteUrl = 'https://github.com/T-Spoon/Traceur'
     gitUrl = 'https://github.com/T-Spoon/Traceur.git'
 
-    libraryVersion = '1.0.0'
+    libraryVersion = '1.0.1'
 
     developerId = 'tspoon'
     developerName = "Oisín O'Neill"

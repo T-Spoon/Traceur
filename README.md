@@ -30,7 +30,7 @@ Traceur.disableLogging();
 Download
 --------
 ```
-compile 'com.tspoon.traceur:traceur:1.0.0'
+compile 'com.tspoon.traceur:traceur:1.0.1'
 ```
 
 
